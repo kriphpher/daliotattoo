@@ -36,4 +36,9 @@ function dal_scripts(){
     wp_enqueue_script('dal-lightbox', "/wp-content/themes/daliotattoo/assets/vendor/lightbox/js/main.js", array(), $version, 'all', true);
 }
 add_action('wp_enqueue_scripts', 'dal_scripts');
+
+function dal_widget(){
+    register_sidebar(array('before_title' => '', 'after_title' => '', 'before_widget' => '', 'after_widget' => ''), array('name' => 'Sidebar Area', 'id' => 'sidebar-1', 'description' => 'Sidebar Widget Area'));
+}
+add_action('widgets_init', 'dal_widget');
 ?>

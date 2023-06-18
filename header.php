@@ -21,15 +21,15 @@
                                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <?php wp_nav_menu(array('menu'=>'primary', 'container'=>'', 'theme_location'=>'primary', 'items_wrap'=>'<ul id="" class="nav__links text-end">%3$s</ul>')); ?>
+                                <?php wp_nav_menu(array('menu'=>'primary', 'container'=>'', 'theme_location'=>'primary', 'items_wrap'=>'<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">%3$s</ul>')); ?>
                             </div>
                         </div>
                     </div>
                 </nav>
                 <div class="col-md-8">
                     <?php if(function_exists('the_custom_logo')){$custom_logo_id=get_theme_mod('custom_logo'); $logo_main=wp_get_attachment_image_src($custom_logo_id);}?>
+                    <?php /* add "<?php echo $logo_main[0] ?>" on "src=""" to add your own logo on wordpress admin's panel */ ?>
                     <img src="wp-content/themes/daliotattoo/assets/imgs/ic-logo-main.png" class="logo" alt="img-logo">
-                    <?php /* add "<?php echo $logo_main[0] ?>" to add your own logo on wordpress admin's panel */ ?>
                 </div>
             </div>
         </div>
