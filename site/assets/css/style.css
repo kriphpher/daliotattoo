@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "bootstrap";
+*{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: #070707;
+}
+::selection{
+    background: #676767;
+}
+::-moz-selection{
+    background: #676767;
+}
+::marker{
+    color: #676767;
+}
+@font-face{
+    font-family: 'Phagoth-Regular';
+    src: url(../fonts/Phagoth-Regular.ttf);
+}
+.pg-home{
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+.navbar-toggler{
+    margin: 20px 0px 0px 0px;
+}
+.logo{
+    width: auto;
+    height: auto;
+    margin: 115px 0px 0px 420px;
+}
+.txt{
+    padding: 0px 0px 0px 80px;
+    color: #676767;
+    font-size: 20px;
+}
+.txt-1{
+    padding: 0px 0px 80px 80px;
+    color: #676767;
+    font-size: 20px;
+}
+.ttl{
+    font-family: 'Phagoth-Regular', sans-serif;
+    font-size: 70px;
+    color: #83622E;
+    margin: 0px 0px 20px 0px;
+}
+.ttl2{
+    font-family: 'Phagoth-Regular', sans-serif;
+    font-size: 60px;
+    color: #83622E;
+    margin: -10px 0px 15px 50px;
+}
+.ttl2-1{
+    font-family: 'Phagoth-Regular', sans-serif;
+    font-size: 60px;
+    color: #83622E;
+    margin: 0px 0px 20px 0px;
+}
+.ttl3{
+    font-family: 'Phagoth-Regular', sans-serif;
+    font-size: 40px;
+    color: #83622E;
+    margin: -5px 0px 10px 0px;
+}
+.par{
+    font-family: 'Roboto', sans-serif;
+}
+a img{
+    transition: all .2s linear;
+}
+a img:hover{
+    transition: all .2s linear;
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+header{
+    background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../imgs/content/bg-1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 900px;
+}
+#part1{
+    background-color: #0F0F0F;
+    min-height: 600px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.bld{
+    display: flex;
+    align-items: center;
+    margin: -25px 0px -15px -100px;
+}
+.dalio{
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 90px;
+    width: 370px;
+}
+.studio{
+    padding: 0px 0px 70px 75px;
+    margin: 0px 0px 0px 35px;
+    width: 425px;
+}
+#part2{
+    background: linear-gradient(200deg, #0F0F0F, rgba(34, 31, 32, 0) 170%), url(../imgs/content/bg-2.jpg) no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.portfolio-txt{
+    padding: 10px 0px 0px 0px;
+    margin: 0px -350px 0 350px;
+    color: #676767;
+    font-size: 20px;
+}
+.portfolio{
+    padding: 25px 0px 0px 0px;
+}
+.portfolio-img{
+    transition: all .2s linear;
+    width: 100% !important;
+}
+.portfolio-img:hover{
+    transition: all .2s linear;
+    transform: scale(1.02);
+}
+#part3{
+    background: linear-gradient(83deg, #0F0F0F, rgba(34, 31, 32, 0) 100%), url(../imgs/content/bg-3.jpg) no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    background-position-y: -200px;
+}
+.insp{
+    padding: 10px 0px 0px 0px;
+    margin: 0px -340px 0 300px;
+}
+.emotional{
+    transition: all .2s linear;
+    padding: 10px 5px 0px 5px;
+    margin: 0px 0px 20px 100px;
+    width: 200px;
+}
+.inspiration{
+    padding: 10px 0px 0px 30px;
+    list-style: none;
+}
+.inspiration li{
+    display: inline-block;
+}
+.emotional-1{
+    transition: all .2s linear;
+    padding: 10px 5px 0px 5px;
+    margin: 0px 0px 20px 100px;
+    width: 150px;
+}
+.emotional-1{
+    transition: all .2s linear;
+}
+.emotional-1:hover{
+    transition: all .2s linear;
+    transform: scale(1.7);
+}
+.emotional{
+    transition: all .2s linear;
+}
+.emotional:hover{
+    transition: all .2s linear;
+    transform: scale(1.7);
+}
+footer{
+    display: flex;
+    min-height: 210px;
+    background: #070707;
+}
+.logo-footer{
+    width: 100px;
+    margin: 0px 0px -180px 0;
+}
+.cont{
+    padding: 5px 0px 0px 0px;
+}
+.cont-main{
+    padding: 5px 0px 0px 0px;
+    list-style: none;
+}
+.cont-main li{
+    padding: 5px 0px 0px 0px;
+}
+.icnt{
+    width: 20px;
+    padding: 0px 0px 0px 0px;
+}
+.lct{
+    margin: -105px 0px 0px 0px;
+}
+.krgit{
+    padding: 60px 0px 0px 0px;
+}
+@media screen and (max-width: 1024px){
+    *{
+        display: flexbox;
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        background: #070707;
+    }
+    ::selection{
+        background: #676767;
+    }
+    ::-moz-selection{
+        background: #676767;
+    }
+    ::marker{
+        color: #676767;
+    }
+    @font-face{
+        font-family: 'Phagoth-Regular';
+        src: url(../fonts/Phagoth-Regular.ttf);
+    }
+    .pg-home{
+        max-width: 1024px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #fff;
+    }
+    .navbar-toggler{
+        margin: 20px 0px 0px 0px;
+    }
+    .logo{
+        width: 350px;
+        height: auto;
+        margin: 140px 0px 0px 300px;
+    }
+    .txt{
+        padding: 0px 0px 10px 80px;
+        margin: 0px 0px 0px 0px;
+        color: #676767;
+        font-size: 17px;
+    }
+    .txt-1{
+        padding: 0px 0px 10px 80px;
+        margin: 0px 0px 0px 0px;
+        color: #676767;
+        font-size: 17px;
+    }
+    .ttl{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 70px;
+        color: #83622E;
+        margin: 0px 0px 20px 0px;
+    }
+    .ttl2{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 60px;
+        color: #83622E;
+        margin: 0px 0px 20px 0px;
+    }
+    .ttl2-1{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 60px;
+        color: #83622E;
+        margin: 0px 0px 20px 0px;
+    }
+    .ttl3{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 35px;
+        color: #83622E;
+        margin: -5px 0px 10px 0px;
+    }
+    .par{
+        font-family: 'Roboto', sans-serif;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+    header{
+        background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../imgs/content/bg-1.jpg) no-repeat;
+        background-size: cover;
+        min-height: 682px;
+    }
+    #part1{
+        background-color: #0F0F0F;
+        min-height: 600px;
+        padding: 20px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .bld{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px -100px;
+    }
+    .dalio{
+        padding: 10px 10px 0px 10px;
+        margin: 20px 0px 0px 70px;
+        width: 320px;
+    }
+    .studio{
+        padding: 0px 10px 0px 20px;
+        margin: 0px 0px 30px 40px;
+        width: 335px;
+    }
+    #part2{
+        background: linear-gradient(200deg, #0F0F0F, rgba(34, 31, 32, 0) 170%), url(../imgs/content/bg-2.jpg) no-repeat;
+        background-size: cover;
+        min-height: 475px;
+    }
+    .portfolio-txt{
+        padding: 15px 20px 0px 0px;
+        margin: 0px -500px 0px 0px;
+        color: #676767;
+        font-size: 20px;
+    }
+    .portfolio{
+        padding: 25px 0px 0px 0px;
+    }
+    .portfolio-img{
+        transition: all .2s linear;
+    }
+    .portfolio-img:hover{
+        transition: all .2s linear;
+        transform: scale(1.02);
+    }
+    #part3{
+        background: linear-gradient(83deg, #0F0F0F, rgba(34, 31, 32, 0) 100%), url(../imgs/content/bg-3.jpg) no-repeat;
+        background-size: cover;
+        min-height: 400px;
+        background-position-y: -40px;
+    }
+    .insp{
+        padding: 15px 0px 5px 360px;
+        margin: 0px -370px 0px -180px;
+    }
+    .inspiration li{
+        display: inline-block;
+        list-style: none;
+        padding: 5px 0px 0px 0px;
+        margin: -30px 0px 0px -70px;
+    }
+    .emotional{
+        transition: all .2s linear;
+        padding: 10px 5px 0px 5px;
+        margin: 0px 0px 20px 100px;
+        width: 200px;
+    }
+    .emotional-1{
+        transition: all .2s linear;
+        padding: 20px 10px 0px 0px;
+        margin: 0px 0px 20px 100px;
+        width: 150px;
+    }
+    .emotional-1:hover{
+        transition: all .2s linear;
+        transform: scale(1.7);
+    }
+    .emotional:hover{
+        transition: all .2s linear;
+        transform: scale(1.7);
+    }
+    footer{
+        display: flex;
+        min-height: 210px;
+        background: #070707;
+    }
+    .logo-footer{
+        width: 100px;
+        margin: 0px 0px -180px 0;
+    }
+    .cont{
+        padding: 5px 0px 0px 0px;
+    }
+    .cont-main{
+        padding: 5px 0px 0px 0px;
+        list-style: none;
+    }
+    .cont-main li{
+        padding: 5px 0px 0px 0px;
+    }
+    .icnt{
+        width: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+    .lct{
+        margin: -100px -80px -20px 60px;
+    }
+    .krgit{
+        padding: 60px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 900px){
+    *{
+        display: flexbox;
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        background: #070707;
+    }
+    ::selection{
+        background: #676767;
+    }
+    ::-moz-selection{
+        background: #676767;
+    }
+    ::marker{
+        color: #676767;
+    }
+    @font-face{
+        font-family: 'Phagoth-Regular';
+        src: url(../fonts/Phagoth-Regular.ttf);
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #fff;
+    }
+    .navbar-toggler{
+        margin: 20px 0px 0px 0px;
+    }
+    .logo{
+        width: 150px;
+        height: auto;
+        margin: 45px 0px 0px 120px;
+    }
+    .txt{
+        padding: 10px 20px 45px 5px;
+        color: #676767;
+        font-size: 10px;
+        margin: -30px -30px -10px 0;
+    }
+    .txt-1{
+        padding: 0px 0px 20px 60px;
+        color: #676767;
+        font-size: 10px;
+        margin: -40px -85px 20px 30px;
+    }
+    .ttl{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 34px;
+        color: #83622E;
+        margin: 0px 0px 10px 0px;
+    }
+    .ttl2{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 35px;
+        color: #83622E;
+        margin: 0px 0px 0px 50px;
+    }
+    .ttl2-1{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 22px;
+        color: #83622E;
+        margin: 0px 0px 10px 0px;
+    }
+    .ttl3{
+        padding: 0px 19px 29px 0px;
+        color: #676767;
+        font-size: 7px;
+        margin: -30px -30px -10px 0;
+    }
+    .par{
+        font-family: 'Roboto', sans-serif;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+    header{
+        background: linear-gradient(195deg, #0F0F0F, rgba(34, 31, 32, 0) 120%), url(../imgs/content/bg-1.jpg) no-repeat;
+        background-size: cover;
+        min-height: 280px;
+    }
+    #part1{
+        background-color: #0F0F0F;
+        min-height: 480px;
+        padding: 35px 10px 0px 10px;
+        margin: -10px 0px -30px 0px;
+    }
+    .bld{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px -100px;
+    }
+    .dalio{
+        padding: 15px 5px 0px 15px;
+        margin: -30px -5px 40px 80px;
+        width: 160px;
+    }
+    .studio{
+        padding: 0px 0px 40px 10px;
+        margin: -20px -5px 20px 80px;
+        width: 140px;
+    }
+    #part2{
+        background: linear-gradient(200deg, #0F0F0F, rgba(34, 31, 32, 0) 170%), url(../imgs/content/bg-2.jpg) no-repeat;
+        background-size: cover;
+        min-height: 250px;
+    }
+    .portfolio-txt{
+        padding: 10px 0px 0px 0px;
+        margin: 0px 0px 0px -20px;
+        color: #676767;
+        font-size: 15px;
+    }
+    .portfolio{
+        padding: 25px 0px 0px 0px;
+    }
+    .portfolio-img{
+        transition: all .2s linear;
+    }
+    .portfolio-img:hover{
+        transition: all .2s linear;
+        transform: scale(1.02);
+    }
+    #part3{
+        background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 100%), url(../imgs/content/bg-3.jpg) no-repeat;
+        background-size: cover;
+        min-height: 340px;
+        background-position-y: -120px;
+    }
+    .insp{
+        padding: 15px 0px 5px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .emotional{
+        transition: all .2s linear;
+        padding: 10px 5px 0px 5px;
+        margin: 0px 0px 20px 100px;
+        width: 100px;
+    }
+    .inspiration{
+        padding: 10px 0px 0px 30px;
+        list-style: none;
+    }
+    .inspiration li{
+        display: inline-block;
+        list-style: none;
+        padding: 5px 0px 0px 0px;
+        margin: 0px -20px 0px -180px;
+    }
+    .emotional-1{
+        transition: all .2s linear;
+        padding: 10px 5px 0px 5px;
+        margin: 0px 0px 20px 100px;
+        width: 50px;
+    }
+    footer{
+        display: flex;
+        min-height: 210px;
+        background: #070707;
+    }
+    .logo-footer{
+        width: 100px;
+        margin: 0px 0px -180px 0;
+    }
+    .cont{
+        padding: 5px 0px 0px 0px;
+    }
+    .cont-main{
+        padding: 5px 0px 0px 0px;
+        list-style: none;
+    }
+    .cont-main li{
+        padding: 5px 0px 0px 0px;
+    }
+    .icnt{
+        width: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+    .lct{
+        margin: -105px 0px 0px 0px;
+    }
+    .krgit{
+        padding: 60px 0px 0px 0px;
+    }
+}
