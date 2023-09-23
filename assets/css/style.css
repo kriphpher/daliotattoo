@@ -453,9 +453,9 @@ footer{
     }
     .ttl2{
         font-family: 'Phagoth-Regular', sans-serif;
-        font-size: 35px;
+        font-size: 30px;
         color: #83622E;
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 30px;
     }
     .ttl2-1{
         font-family: 'Phagoth-Regular', sans-serif;
@@ -513,7 +513,7 @@ footer{
         min-height: 250px;
     }
     .portfolio-txt{
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 0px 60px;
         margin: 0px 0px 0px -20px;
         color: #676767;
         font-size: 15px;
@@ -531,8 +531,8 @@ footer{
     #part3{
         background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 100%), url(../imgs/content/bg-3.jpg) no-repeat;
         background-size: cover;
-        min-height: 340px;
-        background-position-y: -120px;
+        min-height: 200px;
+        background-position-y: 0px;
     }
     .insp{
         padding: 15px 0px 5px 0px;
@@ -542,17 +542,16 @@ footer{
         transition: all .2s linear;
         padding: 10px 5px 0px 5px;
         margin: 0px 0px 20px 100px;
-        width: 100px;
+        width: 70px;
     }
     .inspiration{
         padding: 10px 0px 0px 30px;
         list-style: none;
     }
     .inspiration li{
-        display: inline-block;
         list-style: none;
-        padding: 5px 0px 0px 0px;
-        margin: 0px -20px 0px -180px;
+        padding: 10px 0px 0px 0px;
+        margin: 0px -10px -120px -80px;
     }
     .emotional-1{
         transition: all .2s linear;
@@ -562,12 +561,18 @@ footer{
     }
     footer{
         display: flex;
-        min-height: 210px;
+        min-height: 170px;
         background: #070707;
     }
     .logo-footer{
         width: 100px;
-        margin: 0px 0px -180px 0;
+        margin: 0px 0px -110px 0;
+    }
+    .ttl3{
+        font-family: 'Phagoth-Regular', sans-serif;
+        font-size: 25px;
+        color: #83622E;
+        margin: -5px 0px 5px 8px;
     }
     .cont{
         padding: 5px 0px 0px 0px;
@@ -577,14 +582,16 @@ footer{
         list-style: none;
     }
     .cont-main li{
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 30px;
+        list-style: none;
+        margin: -20px 0px 20px -20px;
     }
     .icnt{
         width: 20px;
         padding: 0px 0px 0px 0px;
     }
     .lct{
-        margin: -105px 0px 0px 0px;
+        margin: -17px 0px 0px -60px;
     }
     .krgit{
         padding: 60px 0px 0px 0px;

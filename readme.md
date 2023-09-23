@@ -1,0 +1,1 @@
+coloquei mais umas linhas no "script.js"
